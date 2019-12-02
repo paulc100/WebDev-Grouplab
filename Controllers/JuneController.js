@@ -3,5 +3,5 @@ exports.JuneIndex = async function(request, response){
 
     // Data for retail stores drop-down. The empty string is so 
     // none are selected at the start.
-    response.render('Home/KrazView', {name: "Kraz"})
+    response.render('Home/JuneView', {name: "June"})
 };
